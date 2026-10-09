@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 3a9b10a3e0e94bd6bfe1cdd6e53670e9
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Runtime/Steps/IMotionStepProvider.cs
+  uploadId: 997044

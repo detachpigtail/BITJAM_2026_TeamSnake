@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 13abd7dac5f73e64fa0bfa41eefdbb11
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Tests/PlayMode/MotionCore2D.Tests.PlayMode.asmdef
+  uploadId: 997044

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7e08a46a7c8f726458b7f68540c09984
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Tests/EditMode/MotionCore2D.Tests.EditMode.asmdef
+  uploadId: 997044

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: a3d4919e2db54534ea5892c8f2b62e5a
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Runtime/Diagnostics/MotionGizmos.cs
+  uploadId: 997044

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: b89d4af159d24ad8ac51e09d7f4017a3
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Editor/CrouchController2DEditor.cs
+  uploadId: 997044

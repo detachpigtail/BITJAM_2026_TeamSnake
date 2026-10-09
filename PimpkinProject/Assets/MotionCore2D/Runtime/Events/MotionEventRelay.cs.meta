@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 7faa44cf2ff840f9b7a4ae99337bc195
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Runtime/Events/MotionEventRelay.cs
+  uploadId: 997044

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 8a7678da9145425d8ebe690d576d880d
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Runtime/Crouch/ICrouchBody.cs
+  uploadId: 997044

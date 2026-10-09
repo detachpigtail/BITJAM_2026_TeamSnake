@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: c86c0cec942347139034ff960947dddb
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Tests/PlayMode/MotionIntegrationPlayModeTests.cs
+  uploadId: 997044

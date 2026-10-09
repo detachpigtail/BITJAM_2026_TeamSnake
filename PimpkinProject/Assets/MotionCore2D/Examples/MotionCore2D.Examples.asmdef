@@ -1,0 +1,22 @@
+{
+    "name": "MotionCore2D.Examples",
+    "rootNamespace": "MotionCore2D.Examples",
+    "references": [
+        "MotionCore2D.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.modules.animation",
+            "expression": "1.0.0",
+            "define": "MOTIONCORE_ANIMATION_MODULE"
+        }
+    ],
+    "noEngineReferences": false
+}

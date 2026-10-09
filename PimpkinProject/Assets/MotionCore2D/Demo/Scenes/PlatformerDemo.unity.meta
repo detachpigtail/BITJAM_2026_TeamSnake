@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0baecab493306154ebf82e5dd12fb6ba
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Demo/Scenes/PlatformerDemo.unity
+  uploadId: 997044

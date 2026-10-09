@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: c68556a386ac47219e2a70484a39e970
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Examples/PatrolInputExample.cs
+  uploadId: 997044

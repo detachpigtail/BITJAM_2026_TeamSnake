@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 55b9ea05fa504ead8a95f318e54e5660
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Demo/Materials/DemoSpriteMaterial.mat
+  uploadId: 997044

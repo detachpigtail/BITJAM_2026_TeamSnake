@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 9ba1c1e82ae242c28b65f9388bab80a8
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Runtime/Crouch/CrouchStep.cs
+  uploadId: 997044

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 7dd0ed40741e6a04f9d844c37c8ba8c5
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Tests/EditMode/JumpStateMachineTests.cs
+  uploadId: 997044

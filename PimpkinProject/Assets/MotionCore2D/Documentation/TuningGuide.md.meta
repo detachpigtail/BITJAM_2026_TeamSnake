@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 63ad013b12efee24781c6b31ce75dfda
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Documentation/TuningGuide.md
+  uploadId: 997044

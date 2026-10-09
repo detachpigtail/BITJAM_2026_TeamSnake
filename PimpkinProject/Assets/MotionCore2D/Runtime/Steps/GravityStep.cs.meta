@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: bb4710e20a2ce5a49b9c06e45d428d57
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Runtime/Steps/GravityStep.cs
+  uploadId: 997044

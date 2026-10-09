@@ -1,0 +1,24 @@
+{
+  "name": "com.motioncore.basic2d",
+  "version": "1.0.0",
+  "displayName": "MotionCore 2D Basic",
+  "description": "A 2D platformer character controller for Unity 6. Horizontal movement with acceleration, deceleration, and air control; manual gravity with a fall multiplier and maximum fall speed; variable-height jumping that reaches the configured height exactly, with coyote time and jump buffering; crouching with a lowered collider and ceiling check; box-cast ground detection; and walkable-slope handling. Input from the Input System or from your own code, events and published state for animation and audio, custom inspectors with one-click fixes, debug gizmos, example scripts, and a self-contained demo scene. Mobile touch controls are not included.",
+  "unity": "6000.2",
+  "dependencies": {
+    "com.unity.inputsystem": "1.14.2"
+  },
+  "keywords": [
+    "2d",
+    "platformer",
+    "character-controller",
+    "movement",
+    "jump",
+    "input-system",
+    "crouch",
+    "coyote-time",
+    "2d-controller"
+  ],
+  "author": {
+    "name": "MotionCore"
+  }
+}

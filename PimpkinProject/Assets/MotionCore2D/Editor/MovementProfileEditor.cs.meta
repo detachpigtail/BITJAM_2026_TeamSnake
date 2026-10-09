@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: d4e6696ea74cafd4180533a60ecd9cdd
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Editor/MovementProfileEditor.cs
+  uploadId: 997044

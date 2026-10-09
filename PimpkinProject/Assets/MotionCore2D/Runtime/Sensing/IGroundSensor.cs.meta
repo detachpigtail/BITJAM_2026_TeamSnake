@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 1a665fbe362b8034fb56f6a8ddcbe8c8
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Runtime/Sensing/IGroundSensor.cs
+  uploadId: 997044

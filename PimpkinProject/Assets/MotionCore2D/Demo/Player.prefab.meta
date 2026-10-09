@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: df832228c4698df4a98e95f39b878070
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Demo/Player.prefab
+  uploadId: 997044

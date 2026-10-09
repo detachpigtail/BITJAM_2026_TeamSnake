@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: c09c39be088a8b541a9769594e953310
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Runtime/Input/InputSystemReader.cs
+  uploadId: 997044

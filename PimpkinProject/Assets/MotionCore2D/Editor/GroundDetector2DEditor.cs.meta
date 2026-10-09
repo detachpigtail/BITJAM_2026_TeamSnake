@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 49eac6f8bcbf7934cbb221dc2b6516cd
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Editor/GroundDetector2DEditor.cs
+  uploadId: 997044

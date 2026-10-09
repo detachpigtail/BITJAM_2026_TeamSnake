@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4546eabba589d7f45a90ef39b1bbdfa6
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388728
+  packageName: MotionCore 2D - Basic 2D Character Controller
+  packageVersion: 1.1
+  assetPath: Assets/MotionCore2D/Documentation/SetupGuide.md
+  uploadId: 997044
