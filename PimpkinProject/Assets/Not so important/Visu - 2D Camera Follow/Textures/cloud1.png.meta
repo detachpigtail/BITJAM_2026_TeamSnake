@@ -1,10 +1,20 @@
 fileFormatVersion: 2
-guid: b4361a550ad8a2e48a45d74ceeb3c631
+guid: f3ae6647936cdf24194c7db7448bb677
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275641
+  packageName: VISU - FREE Camera Follow 2D
+  packageVersion: 1.0
+  assetPath: Assets/Visu - 2D Camera Follow/Textures/cloud1.png
+  uploadId: 658716
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1945810069243039218
-    second: terr_0
+      213: 4304386681962525427
+    second: clou1_0
+  - first:
+      213: -1218929808521237658
+    second: clou1_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -56,7 +66,9 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationMethod: 0
   spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -70,7 +82,7 @@ TextureImporter:
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -83,7 +95,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -96,7 +108,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -109,7 +121,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -122,8 +134,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -139,27 +151,51 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: terr_0
+      name: clou1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 536
+        x: 47
+        y: 807
+        width: 588
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e02f3662d081ff4e0800000000000000
-      internalID: -1945810069243039218
+      spriteID: 3f27c42b1e04cbb30800000000000000
+      internalID: 4304386681962525427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clou1_1
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 737
+        width: 844
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66be4fc1ccd751fe0800000000000000
+      internalID: -1218929808521237658
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
@@ -169,17 +205,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
-      terr_0: -1945810069243039218
+      clou1_0: 4304386681962525427
+      clou1_1: -1218929808521237658
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 275641
-  packageName: VISU - FREE Camera Follow 2D
-  packageVersion: 1.0
-  assetPath: Assets/Visu - 2D Camera Follow/Textures/terrain.png
-  uploadId: 658716
