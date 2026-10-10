@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &42267445 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 469247418772803176, guid: df832228c4698df4a98e95f39b878070, type: 3}
+  m_PrefabInstance: {fileID: 435374414}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &421324829
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,21 +276,33 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 210367904317439803, guid: df832228c4698df4a98e95f39b878070, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 210367904317439803, guid: df832228c4698df4a98e95f39b878070, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 210367904317439803, guid: df832228c4698df4a98e95f39b878070, type: 3}
       propertyPath: m_Color.b
-      value: 0.9528302
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 210367904317439803, guid: df832228c4698df4a98e95f39b878070, type: 3}
       propertyPath: m_Color.g
-      value: 0.54607964
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 210367904317439803, guid: df832228c4698df4a98e95f39b878070, type: 3}
       propertyPath: m_Color.r
-      value: 0.13932894
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 210367904317439803, guid: df832228c4698df4a98e95f39b878070, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 210367904317439803, guid: df832228c4698df4a98e95f39b878070, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 057381d2f434b2b4899e6f478c068957, type: 2}
     - target: {fileID: 210367904317439805, guid: df832228c4698df4a98e95f39b878070, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -337,7 +354,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 469247418772803176, guid: df832228c4698df4a98e95f39b878070, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1027415525}
   m_SourcePrefab: {fileID: 100100000, guid: df832228c4698df4a98e95f39b878070, type: 3}
 --- !u!1 &694498232
 GameObject:
@@ -667,6 +687,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 960367904317439896, guid: df832228c4698df4a98e95f39b878070, type: 3}
   m_PrefabInstance: {fileID: 435374414}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1027415525
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42267445}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c3383844084cc544bbbf447aca0e1e7f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1417543605
 GameObject:
   m_ObjectHideFlags: 0
@@ -735,7 +777,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0.35, g: 0.37, b: 0.42, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
