@@ -26,7 +26,6 @@ public class SetCheckPoint : MonoBehaviour
         print(checkpointCollider.gameObject.tag);
 		if (checkpointCollider.gameObject.CompareTag(player))
 		{
-			print("Checkpoint1 reached");
             checkpointPosition = checkpoint.transform.position;
 		}
 	}
