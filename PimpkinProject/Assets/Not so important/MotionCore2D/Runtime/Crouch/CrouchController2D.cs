@@ -21,6 +21,9 @@ namespace MotionCore2D.Crouch
     [DisallowMultipleComponent]
     public sealed class CrouchController2D : MonoBehaviour, ICrouchBody
     {
+        [SerializeField] private SpriteRenderer spriteRenderer;
+        [SerializeField] private Animator animator;
+
         [SerializeField, Tooltip("The collider lowered while crouching. Auto-detected from this GameObject (then its children) when left empty. BoxCollider2D and CapsuleCollider2D are resized; other types only update the crouch state.")]
         private Collider2D _bodyCollider;
 
@@ -55,6 +58,9 @@ namespace MotionCore2D.Crouch
         private void Awake()
         {
             EnsureInitialized();
+
+            animator.SetBool("isCrouching", _isCrouched);
+
         }
 
         private void EnsureInitialized()

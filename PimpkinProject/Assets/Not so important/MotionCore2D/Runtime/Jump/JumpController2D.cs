@@ -18,6 +18,9 @@ namespace MotionCore2D.Jump
     [DisallowMultipleComponent]
     public sealed class JumpController2D : MonoBehaviour
     {
+        [SerializeField] private SpriteRenderer spriteRenderer;
+        [SerializeField] private Animator animator;
+        bool isJumping = false;
         private JumpStep _step;
 
         /// <summary>
@@ -51,5 +54,9 @@ namespace MotionCore2D.Jump
 
         private JumpStep JumpStep =>
             _step ?? (_step = new JumpStep(() => Jumped?.Invoke()));
+        void Update()
+        {
+            animator?.SetBool("isJumping", IsRising);
+        }
     }
 }

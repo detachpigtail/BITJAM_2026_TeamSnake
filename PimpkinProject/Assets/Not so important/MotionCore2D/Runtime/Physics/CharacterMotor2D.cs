@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace MotionCore2D.Physics
@@ -18,6 +19,8 @@ namespace MotionCore2D.Physics
     [RequireComponent(typeof(Rigidbody2D))]
     public sealed class CharacterMotor2D : MonoBehaviour, IMotionBody
     {
+        [SerializeField] private SpriteRenderer spriteRenderer;
+        [SerializeField] private Animator animator;
         private Rigidbody2D _rigidbody;
 
         private Rigidbody2D Body =>
@@ -32,6 +35,10 @@ namespace MotionCore2D.Physics
 
         /// <inheritdoc />
         public Vector2 Position => Body.position;
+        private void FixedUpdate()
+        {
+            animator.SetFloat("xVelocity", Math.Abs(Velocity.x));
+        }
 
         private void Awake()
         {
@@ -44,6 +51,16 @@ namespace MotionCore2D.Physics
             }
 
             Body.freezeRotation = true;
+
+            // Use current velocity to determine running state
+            if (Velocity != Vector2.zero)
+            {
+                animator.SetBool("isRunning", true);
+            }
+            else
+            {
+                animator.SetBool("isRunning", false);
+            }
         }
     }
 }
