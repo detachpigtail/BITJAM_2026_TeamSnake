@@ -154,11 +154,6 @@ Transform:
   - {fileID: 3355671645005633840}
   m_Father: {fileID: 1230472793}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &174270746 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 469247418772803176, guid: df832228c4698df4a98e95f39b878070, type: 3}
-  m_PrefabInstance: {fileID: 1933127061}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &776688118
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,42 +666,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4027279224044421754, guid: df832228c4698df4a98e95f39b878070, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 469247418772803176, guid: df832228c4698df4a98e95f39b878070, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1933127072}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df832228c4698df4a98e95f39b878070, type: 3}
 --- !u!4 &1933127062 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 960367904317439896, guid: df832228c4698df4a98e95f39b878070, type: 3}
-  m_PrefabInstance: {fileID: 1933127061}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1933127072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 174270746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5791799fbec1f34da6b2df56c42cd78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerDash
-  movementProfile: {fileID: 11400000, guid: 2a3491402e5bcf547b86d5be51651045, type: 2}
-  rigidbody2d: {fileID: 1933127081}
-  canDash: 1
-  isDashing: 0
-  dashingPower_x: 24
-  dashingPower_y: 0
-  dashingTime: 0.2
-  dashingCooldown: 1
---- !u!50 &1933127081 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 210367904317439801, guid: df832228c4698df4a98e95f39b878070, type: 3}
   m_PrefabInstance: {fileID: 1933127061}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2093765791

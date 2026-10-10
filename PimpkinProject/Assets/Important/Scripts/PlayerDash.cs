@@ -77,7 +77,6 @@ public class PlayerDash : MonoBehaviour
     {
         canDash = false;
         isDashing = true;
-        float originalGravity = movementProfile._gravity;
         movementProfile._gravity = 0;
         rigidbody2d.linearVelocity = new Vector2(transform.localScale.x * dashingPower_x, dashingPower_y);
         tr.emitting = true;
