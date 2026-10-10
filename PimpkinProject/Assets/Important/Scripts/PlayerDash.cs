@@ -7,6 +7,7 @@ public class PlayerDash : MonoBehaviour
 {
     public MovementProfile movementProfile;
     public Rigidbody2D rigidbody2d;
+    audioManager audioManager;
 
     public bool canDash = true;
     public bool isDashing = false;
@@ -22,6 +23,7 @@ public class PlayerDash : MonoBehaviour
     {
         //Checks witch way the player dashes
         if(Input.GetKey(KeyCode.D))
+        
         {
             dashingPower_x = 18;
         } else if (Input.GetKey(KeyCode.A))
@@ -69,6 +71,7 @@ public class PlayerDash : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         { 
             StartCoroutine(Dash());
+            audioManager.PlaySFX(audioManager.Move);
         }
     }
 
