@@ -14,6 +14,7 @@ public class PlayerDash : MonoBehaviour
     [SerializeField] private float dashingPower_y = 0;
     [SerializeField] private float dashingTime = 0.2f;
     [SerializeField] private float dashingCooldown = 1f;
+    [SerializeField] private TrailRenderer tr;
 
 
     // Update is called once per frame
@@ -79,7 +80,9 @@ public class PlayerDash : MonoBehaviour
         float originalGravity = movementProfile._gravity;
         movementProfile._gravity = 0;
         rigidbody2d.linearVelocity = new Vector2(transform.localScale.x * dashingPower_x, dashingPower_y);
+        tr.emitting = true;
         yield return new WaitForSeconds(dashingTime);
+        tr.emitting = false;
         isDashing = false;
         movementProfile._gravity = 40f;
         yield return new WaitForSeconds(dashingCooldown);
