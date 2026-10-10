@@ -20,3 +20,8 @@ the wanted sprite into the pallette. itll ask you to again save it so just save 
 pallette folder. afterward you can place your tiles etc. There is also options on the
 pallette to choose which tilemap you are painting on if have multiple so remember to check that.
 Right now the sprites are still a but broken and i havent fully worked out the numbers and such.*/
+
+/*if the sprites or something look weird like fuzzy come talk to me or check if the filtermode
+on the sprite is set to pivot (in the inspector when highligting the sprites) There might
+be some other random setting you need to fiddle around w. really i dont know the proper way to
+do ts but this kinda works.*/
