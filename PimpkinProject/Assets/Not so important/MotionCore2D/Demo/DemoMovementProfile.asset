@@ -16,6 +16,8 @@ MonoBehaviour:
   _acceleration: 60
   _deceleration: 60
   _airControlFactor: 0.6
+  _crouchSpeedMultiplier: 0.5
+  _crouchHeightFactor: 0.5
   _jumpHeight: 3.5
   _variableJumpCutMultiplier: 0.5
   _gravity: 40
