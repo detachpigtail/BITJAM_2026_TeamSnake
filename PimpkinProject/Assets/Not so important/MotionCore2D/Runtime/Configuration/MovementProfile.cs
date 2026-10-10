@@ -1,3 +1,5 @@
+using System.Collections;
+using Unity.GraphToolkit.Editor.GraphVisualization;
 using UnityEngine;
 
 namespace MotionCore2D.Configuration
@@ -23,7 +25,7 @@ namespace MotionCore2D.Configuration
         private float _maxSpeed = 8f;
 
         [SerializeField, Min(0f), Tooltip("Horizontal acceleration toward the target speed, in units per second squared.")]
-        private float _acceleration = 60f;
+        public float _acceleration = 60f;
 
         [SerializeField, Min(0f), Tooltip("Horizontal deceleration when input opposes motion or is released, in units per second squared.")]
         private float _deceleration = 60f;
@@ -47,7 +49,7 @@ namespace MotionCore2D.Configuration
 
         [Header("Gravity")]
         [SerializeField, Min(0f), Tooltip("Downward acceleration while rising, in units per second squared.")]
-        private float _gravity = 40f;
+        public float _gravity = 40f;
 
         [SerializeField, Min(1f), Tooltip("Multiplier applied to gravity while falling, for a snappier descent.")]
         private float _fallGravityMultiplier = 1.6f;
@@ -108,6 +110,7 @@ namespace MotionCore2D.Configuration
         /// <summary>Steepest slope angle, in degrees, the actor treats as walkable ground.</summary>
         public float MaxSlopeAngle => _maxSlopeAngle;
 
+        
         /// <summary>
         /// Clamps all parameters into their supported ranges. Called automatically by the editor
         /// whenever a value changes, and may be called manually after programmatic edits.
