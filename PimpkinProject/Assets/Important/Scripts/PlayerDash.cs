@@ -15,6 +15,8 @@ public class PlayerDash : MonoBehaviour
     [SerializeField] private float dashingTime = 0.2f;
     [SerializeField] private float dashingCooldown = 1f;
     [SerializeField] private TrailRenderer tr;
+    public AudioSource audioJump = new AudioSource();
+    public AudioSource audioDash = new AudioSource();
 
 
     // Update is called once per frame
@@ -69,6 +71,16 @@ public class PlayerDash : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         { 
             StartCoroutine(Dash());
+        }
+
+        //Plays the jump and dash sound effects
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            audioJump.Play();
+        }
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            audioDash.Play();
         }
     }
 
