@@ -7,26 +7,24 @@ using UnityEngine.UIElements;
 using System.Collections;
 using System.Collections.Generic;
 
+
 public class DeathScript : MonoBehaviour
 {
 	public string player = "Player";
 	public UnityEvent onTriggerEvent;
-	public GameObject death;
 	public Collider2D deathCollider;
+	public ScriptableObject SetCheckPoint;
 
-    [System.Obsolete]
     private void Start()
 	{
-		death = GameObject.FindWithTag("Death");
-		deathCollider = death.GetComponent<Collider2D>();
 	}
 
-    [System.Obsolete]
-    private void OnTriggerEnter2D(Collider2D deathCollider)
+    private void OnTriggerEnter2D(Collider2D other)
 	{
-		if (deathCollider.gameObject.CompareTag(player))
+		if (other.gameObject.CompareTag(player))
 		{
-			deathCollider.gameObject.transform.position = FindObjectOfType<SetCheckPoint>().checkpointPosition;
+			other.gameObject.transform.position = FindAnyObjectByType<SetCheckPoint>().checkpointPosition;
+			other.gameObject.GetComponent<AudioSource>().Play();
 		}
 	}
 }

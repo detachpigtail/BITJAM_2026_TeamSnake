@@ -15,6 +15,8 @@ public class PlayerDash : MonoBehaviour
     [SerializeField] private float dashingTime = 0.2f;
     [SerializeField] private float dashingCooldown = 1f;
     [SerializeField] private TrailRenderer tr;
+    public AudioSource audioJump = new AudioSource();
+    public AudioSource audioDash = new AudioSource();
 
 
     // Update is called once per frame
@@ -22,6 +24,7 @@ public class PlayerDash : MonoBehaviour
     {
         //Checks witch way the player dashes
         if(Input.GetKey(KeyCode.D))
+        
         {
             dashingPower_x = 18;
         } else if (Input.GetKey(KeyCode.A))
@@ -65,6 +68,16 @@ public class PlayerDash : MonoBehaviour
             dashingPower_y = -12;
         }
 
+        //Plays the jump and dash sound effects
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            audioJump.Play();
+        }
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            audioDash.Play();
+        }
+
         //Calls for the dash to happen
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         { 
@@ -77,7 +90,6 @@ public class PlayerDash : MonoBehaviour
     {
         canDash = false;
         isDashing = true;
-        float originalGravity = movementProfile._gravity;
         movementProfile._gravity = 0;
         rigidbody2d.linearVelocity = new Vector2(transform.localScale.x * dashingPower_x, dashingPower_y);
         tr.emitting = true;

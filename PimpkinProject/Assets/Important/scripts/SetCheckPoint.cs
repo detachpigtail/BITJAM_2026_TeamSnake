@@ -12,21 +12,20 @@ public class SetCheckPoint : MonoBehaviour
 	public string player = "Player";
 	public UnityEvent onTriggerEvent;
 	public GameObject checkpoint;
-	public Collider2D checkpointCollider;
 	public Vector3 checkpointPosition;
 
 	private void Start()
 	{
 		checkpoint = GameObject.FindWithTag("CheckPoint");
-		checkpointCollider = checkpoint.GetComponent<Collider2D>();
 	}
 
-	private void OnTriggerEnter2D(Collider2D checkpointCollider)
+	private void OnTriggerEnter2D(Collider2D other)
 	{
-        print(checkpointCollider.gameObject.tag);
-		if (checkpointCollider.gameObject.CompareTag(player))
+        print(other.gameObject.tag);
+		if (other.gameObject.CompareTag(player))
 		{
             checkpointPosition = checkpoint.transform.position;
+            print("Checkpoint position set to: " + checkpointPosition);
 		}
 	}
 }
