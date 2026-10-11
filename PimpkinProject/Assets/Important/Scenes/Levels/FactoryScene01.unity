@@ -5985,6 +5985,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6592775477626327420, guid: df832228c4698df4a98e95f39b878070, type: 3}
+      propertyPath: audioDash
+      value: 
+      objectReference: {fileID: 1734934466}
+    - target: {fileID: 6592775477626327420, guid: df832228c4698df4a98e95f39b878070, type: 3}
+      propertyPath: audioJump
+      value: 
+      objectReference: {fileID: 1734934465}
+    - target: {fileID: 6592775477626327420, guid: df832228c4698df4a98e95f39b878070, type: 3}
+      propertyPath: audioJump.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592775477626327420, guid: df832228c4698df4a98e95f39b878070, type: 3}
+      propertyPath: 'audioJump.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1734934465}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20593,6 +20609,16 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!82 &1734934465 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3819694659697182945, guid: df832228c4698df4a98e95f39b878070, type: 3}
+  m_PrefabInstance: {fileID: 435374414}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1734934466 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5949443579504256380, guid: df832228c4698df4a98e95f39b878070, type: 3}
+  m_PrefabInstance: {fileID: 435374414}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1745304802
 GameObject:
   m_ObjectHideFlags: 0
