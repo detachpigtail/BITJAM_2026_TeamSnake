@@ -197,7 +197,7 @@ MonoBehaviour:
   _groundLayers:
     serializedVersion: 2
     m_Bits: 1
-  _originOffset: {x: 0, y: -0.35}
+  _originOffset: {x: 0, y: -0.27}
   _probeSize: {x: 0.4, y: 0.1}
   _probeDistance: 0.15
   _skinWidth: 0.02
