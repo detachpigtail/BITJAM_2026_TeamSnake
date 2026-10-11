@@ -19,7 +19,16 @@ public class SceneTransitionScript : MonoBehaviour
 	{
 		if (other.gameObject.CompareTag(player))
 		{
-			SceneManager.LoadScene("FactoryScene01");
+			if (SceneManager.GetActiveScene().name == "OtsosTestingScene")
+			{
+				SceneManager.LoadScene("FactoryScene01");
+			}
+				
+			if (SceneManager.GetActiveScene().name == "FactoryScene01")
+			{
+				SceneManager.LoadScene("FactoryScene02");
+			}
+				
 		}
 	}
 }
