@@ -12,7 +12,6 @@ public class DeathScript : MonoBehaviour
 {
 	public string player = "Player";
 	public UnityEvent onTriggerEvent;
-	public Collider2D deathCollider;
 	public ScriptableObject SetCheckPoint;
 
     private void Start()
