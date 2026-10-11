@@ -4,6 +4,7 @@
 #if MOTIONCORE_ANIMATION_MODULE
 using MotionCore2D.Core;
 using MotionCore2D.Jump;
+using System;
 using UnityEngine;
 
 namespace MotionCore2D.Examples
@@ -21,6 +22,7 @@ namespace MotionCore2D.Examples
     [AddComponentMenu("MotionCore 2D/Examples/Motion Animator Example")]
     public sealed class MotionAnimatorExample : MonoBehaviour
     {
+        Rigidbody2D rb;
         [SerializeField, Tooltip("Animator to drive. Found on this object or its children when empty.")]
         private Animator _animator;
 
@@ -55,11 +57,15 @@ namespace MotionCore2D.Examples
 
         private MotionController2D _controller;
         private JumpController2D _jump;
+        private bool IsGrounded;
+        private bool IsCrouching;
 
         private void Awake()
         {
             _controller = GetComponent<MotionController2D>();
+            rb = GetComponent<Rigidbody2D>();
             _jump = GetComponent<JumpController2D>();
+            _animator = GetComponent<Animator>();
 
             if (_animator == null)
             {
@@ -114,15 +120,17 @@ namespace MotionCore2D.Examples
             {
                 SetFloat(_speedParameter, Mathf.Abs(state.Velocity.x));
                 SetFloat(_verticalSpeedParameter, state.Velocity.y);
-                SetBool(_groundedParameter, state.IsGrounded);
-                SetBool(_jumpingParameter, state.IsJumping);
-                SetBool(_crouchingParameter, state.IsCrouching);
+                _animator.SetBool("Jumping", !_jump.IsRising);
+                _animator.SetBool("Jumping", _jump.IsRising);
+                _animator.SetBool("isCrouching", IsCrouching);
             }
 
             if (_sprite != null && Mathf.Abs(state.Velocity.x) > _facingDeadzone)
             {
                 _sprite.flipX = state.Velocity.x < 0f;
             }
+
+            SetBool(_crouchingParameter, state.IsCrouching);
         }
 
         private void OnJumped() => SetTrigger(_jumpTrigger);
@@ -134,6 +142,8 @@ namespace MotionCore2D.Examples
         // missing from the controller, which is the signal you want while wiring things up.
         private void SetFloat(string parameter, float value)
         {
+            _animator.SetFloat("xVelocity", Math.Abs(rb.linearVelocityX));
+            _animator.SetFloat("yVelocity", rb.linearVelocityY);
             if (!string.IsNullOrEmpty(parameter))
             {
                 _animator.SetFloat(parameter, value);
@@ -154,6 +164,13 @@ namespace MotionCore2D.Examples
             {
                 _animator.SetTrigger(parameter);
             }
+        }
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            IsGrounded = true;
+            _animator.SetBool("Jumping", _jump.IsRising);
+            IsCrouching = true;
+            _animator.SetBool("Crouching", IsCrouching);
         }
     }
 }
