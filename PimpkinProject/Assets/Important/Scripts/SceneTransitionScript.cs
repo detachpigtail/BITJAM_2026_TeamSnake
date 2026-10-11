@@ -28,6 +28,16 @@ public class SceneTransitionScript : MonoBehaviour
 			{
 				SceneManager.LoadScene("FactoryScene03");
 			}
+
+			if (SceneManager.GetActiveScene().name == "FactoryScene03")
+			{
+				SceneManager.LoadScene("FactoryScene04");
+			}
+
+			if (SceneManager.GetActiveScene().name == "FactoryScene04")
+			{
+				SceneManager.LoadScene("FactoryScene01");
+			}
 				
 		}
 	}
