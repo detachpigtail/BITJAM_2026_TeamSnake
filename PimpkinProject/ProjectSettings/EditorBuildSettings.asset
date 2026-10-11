@@ -10,6 +10,9 @@ EditorBuildSettings:
     guid: 88de5dba104ba204081a5d5b948d6666
   - enabled: 1
     path: Assets/Important/Scenes/Levels/FactoryScene01.unity
-    guid: 352b68f9a928e0e45a5c1e3be0be9f87
+    guid: e606015c42840824a8364c9596ae0d7b
+  - enabled: 1
+    path: Assets/Important/Scenes/Levels/FactoryScene02.unity
+    guid: d8dfabe4bde7ceb47a9ce9b4e0fb8ceb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
