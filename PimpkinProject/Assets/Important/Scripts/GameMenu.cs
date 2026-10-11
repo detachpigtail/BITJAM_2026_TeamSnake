@@ -10,6 +10,7 @@ public class GameMenuu : MonoBehaviour
     public void Play()
     {
         SceneManager.LoadScene("FactoryScene01");
+        Time.timeScale = 1;
     }
 
     public void Quit()

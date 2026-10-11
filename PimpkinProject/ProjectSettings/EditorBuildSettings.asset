@@ -17,5 +17,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Important/Scenes/Levels/FactoryScene03.unity
     guid: 48060ec10b8d2f34abed8475becfd5e1
+  - enabled: 1
+    path: Assets/Important/Scenes/Levels/Ending.unity
+    guid: b58e3f864696a3545be455fa5bb4c386
+  - enabled: 1
+    path: Assets/Important/Scenes/Levels/Credits.unity
+    guid: e5ed5e1337757a44a8f46319445817a7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

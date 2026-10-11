@@ -9,12 +9,12 @@ public class SceneTransitionScript : MonoBehaviour
 	public GameObject door;
 
     [System.Obsolete]
-    private void Start()
-	{
-		door = GameObject.FindWithTag("door");
-	}
+ //   private void Start()
+	//{
+	//	door = GameObject.FindWithTag("door");
+	//}
 
-    [System.Obsolete]
+    //[System.Obsolete]
     private void OnTriggerEnter2D(Collider2D other)
 	{
 		if (other.gameObject.CompareTag(player))
@@ -36,7 +36,7 @@ public class SceneTransitionScript : MonoBehaviour
 
 			if (SceneManager.GetActiveScene().name == "FactoryScene04")
 			{
-				SceneManager.LoadScene("FactoryScene01");
+				SceneManager.LoadScene("Ending");
 			}
 				
 		}
