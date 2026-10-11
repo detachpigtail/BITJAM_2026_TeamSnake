@@ -1,5 +1,4 @@
 using System.Collections;
-using Unity.GraphToolkit.Editor.GraphVisualization;
 using UnityEngine;
 
 namespace MotionCore2D.Configuration
