@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: e166a92bea4275749895f0bfd016899d
+guid: e632c51cb0a073f4597362b103e0e41d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5539307603083837286
-    second: Tilemap_stuff_112x64_0
+      213: -8327858935011257928
+    second: Sawblade_0
   - first:
-      213: -5026992929264285446
-    second: Tilemap_stuff_112x64_1
+      213: 4260025456749934199
+    second: Sawblade_1
   - first:
-      213: -7209663918574630078
-    second: Tilemap_stuff_112x64_2
+      213: 5459606555420312397
+    second: Sawblade_2
   - first:
-      213: -6023370592959352720
-    second: Tilemap_stuff_112x64_3
+      213: -315995884420076464
+    second: Sawblade_3
   - first:
-      213: 5664904460523319761
-    second: Tilemap_stuff_112x64_4
+      213: -4388670389937519720
+    second: Sawblade_4
   - first:
-      213: 86838979797701530
-    second: Tilemap_stuff_112x64_5
+      213: -3609523149110936184
+    second: Sawblade_5
   - first:
-      213: -337230844828071143
-    second: Tilemap_stuff_112x64_6
+      213: -5471234607403696587
+    second: Sawblade_6
   - first:
-      213: 968214977549658992
-    second: Tilemap_stuff_112x64_7
+      213: -1631082275418307753
+    second: Sawblade_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -98,7 +98,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tilemap_stuff_112x64_0
+      name: Sawblade_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 49
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a904190651d6023b0800000000000000
-      internalID: -5539307603083837286
+      spriteID: 8b15717eb608d6c80800000000000000
+      internalID: -8327858935011257928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_stuff_112x64_1
+      name: Sawblade_1
       rect:
         serializedVersion: 2
-        x: 53
-        y: 47
-        width: 7
-        height: 14
+        x: 31
+        y: 0
+        width: 34
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,130 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af84dc2a0988c3ab0800000000000000
-      internalID: -5026992929264285446
+      spriteID: 77673b31596ae1b30800000000000000
+      internalID: 4260025456749934199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_stuff_112x64_2
+      name: Sawblade_2
       rect:
         serializedVersion: 2
         x: 64
-        y: 31
-        width: 17
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 24b886f4dd022fb90800000000000000
-      internalID: -7209663918574630078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap_stuff_112x64_3
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 47
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 070bf10eb50b86ca0800000000000000
-      internalID: -6023370592959352720
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap_stuff_112x64_4
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 49
-        width: 17
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1d1b408c798cd9e40800000000000000
-      internalID: 5664904460523319761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap_stuff_112x64_5
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 31
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a93df7f8793843100800000000000000
-      internalID: 86838979797701530
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap_stuff_112x64_6
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 31
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 91bc7b6555ae15bf0800000000000000
-      internalID: -337230844828071143
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap_stuff_112x64_7
-      rect:
-        serializedVersion: 2
-        x: 54
         y: 0
-        width: 56
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,8 +182,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07b6f0b646acf6d00800000000000000
-      internalID: 968214977549658992
+      spriteID: d43c8356c3b64cb40800000000000000
+      internalID: 5459606555420312397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sawblade_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ce7a6da6b5d9bf0800000000000000
+      internalID: -315995884420076464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sawblade_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893cf73588f4813c0800000000000000
+      internalID: -4388670389937519720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sawblade_5
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d71b8e1d568edc0800000000000000
+      internalID: -3609523149110936184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sawblade_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ef0e6cc154214b0800000000000000
+      internalID: -5471234607403696587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sawblade_7
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7538146ff4b3d59e0800000000000000
+      internalID: -1631082275418307753
       vertices: []
       indices: 
       edges: []
@@ -312,14 +312,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tilemap_stuff_112x64_0: -5539307603083837286
-      Tilemap_stuff_112x64_1: -5026992929264285446
-      Tilemap_stuff_112x64_2: -7209663918574630078
-      Tilemap_stuff_112x64_3: -6023370592959352720
-      Tilemap_stuff_112x64_4: 5664904460523319761
-      Tilemap_stuff_112x64_5: 86838979797701530
-      Tilemap_stuff_112x64_6: -337230844828071143
-      Tilemap_stuff_112x64_7: 968214977549658992
+      Sawblade_0: -8327858935011257928
+      Sawblade_1: 4260025456749934199
+      Sawblade_2: 5459606555420312397
+      Sawblade_3: -315995884420076464
+      Sawblade_4: -4388670389937519720
+      Sawblade_5: -3609523149110936184
+      Sawblade_6: -5471234607403696587
+      Sawblade_7: -1631082275418307753
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

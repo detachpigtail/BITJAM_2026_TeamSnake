@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f6dd12e65539e3943b1bf239f026c173
+guid: a0b61a5b7976fbb44836f78fc14a6715
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8165516227013247814
-    second: Brokenmetalorsomething_16x16_0
+      213: -3822271435375090426
+    second: Checkpoint_16x32_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -77,7 +77,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -102,13 +102,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Brokenmetalorsomething_16x16_0
+      name: Checkpoint_16x32_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 48
-        height: 64
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,8 +117,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: abcff2911424eae80800000000000000
-      internalID: -8165516227013247814
+      spriteID: 605685b716094fac0800000000000000
+      internalID: -3822271435375090426
       vertices: []
       indices: 
       edges: []
@@ -137,7 +137,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Brokenmetalorsomething_16x16_0: -8165516227013247814
+      Checkpoint_16x32_0: -3822271435375090426
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

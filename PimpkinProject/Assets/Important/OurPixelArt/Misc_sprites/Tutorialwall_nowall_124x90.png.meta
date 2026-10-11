@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 679d9ca422137534095ad89b64998561
+guid: d8531dc654667bc419d643e2bf123638
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4747043757088640005
-    second: StageEndDoor_32x55_0
-  - first:
-      213: -1754784375837134982
-    second: StageEndDoor_32x55_1
+      213: -6639547150523308429
+    second: Tutorialwall_nowall_124x90_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -80,7 +77,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,13 +102,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: StageEndDoor_32x55_0
+      name: Tutorialwall_nowall_124x90_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 46
+        width: 124
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,30 +117,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf3fe759adc1f1eb0800000000000000
-      internalID: -4747043757088640005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StageEndDoor_32x55_1
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 45
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a7f62dc48e0c5a7e0800000000000000
-      internalID: -1754784375837134982
+      spriteID: 376e99f5b079bd3a0800000000000000
+      internalID: -6639547150523308429
       vertices: []
       indices: 
       edges: []
@@ -162,8 +137,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      StageEndDoor_32x55_0: -4747043757088640005
-      StageEndDoor_32x55_1: -1754784375837134982
+      Tutorialwall_nowall_124x90_0: -6639547150523308429
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

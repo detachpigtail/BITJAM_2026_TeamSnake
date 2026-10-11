@@ -7,21 +7,38 @@ public class SceneTransitionScript : MonoBehaviour
     public string player = "Player";
 	public UnityEvent onTriggerEvent;
 	public GameObject door;
-	public Collider2D doorCollider;
 
     [System.Obsolete]
     private void Start()
 	{
 		door = GameObject.FindWithTag("door");
-		doorCollider = door.GetComponent<Collider2D>();
 	}
 
     [System.Obsolete]
-    private void OnTriggerEnter2D(Collider2D doorCollider)
+    private void OnTriggerEnter2D(Collider2D other)
 	{
-		if (doorCollider.gameObject.CompareTag(player))
+		if (other.gameObject.CompareTag(player))
 		{
-			SceneManager.LoadScene("FactoryScene01");
+			if (SceneManager.GetActiveScene().name == "FactoryScene01")
+			{
+				SceneManager.LoadScene("FactoryScene02");
+			}
+				
+			if (SceneManager.GetActiveScene().name == "FactoryScene02")
+			{
+				SceneManager.LoadScene("FactoryScene03");
+			}
+
+			if (SceneManager.GetActiveScene().name == "FactoryScene03")
+			{
+				SceneManager.LoadScene("FactoryScene04");
+			}
+
+			if (SceneManager.GetActiveScene().name == "FactoryScene04")
+			{
+				SceneManager.LoadScene("FactoryScene01");
+			}
+				
 		}
 	}
 }
