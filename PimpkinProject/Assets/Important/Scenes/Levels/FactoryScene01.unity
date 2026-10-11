@@ -20605,6 +20605,7 @@ GameObject:
   - component: {fileID: 1745304804}
   - component: {fileID: 1745304803}
   - component: {fileID: 1745304806}
+  - component: {fileID: 1745304807}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -20738,6 +20739,14 @@ MonoBehaviour:
   myCamera: {fileID: 1745304804}
   cameraOffset: {x: 0, y: 0, z: 0}
   smoothFactor: 0.2
+--- !u!81 &1745304807
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745304802}
+  m_Enabled: 1
 --- !u!1001 &2030395147
 PrefabInstance:
   m_ObjectHideFlags: 0
