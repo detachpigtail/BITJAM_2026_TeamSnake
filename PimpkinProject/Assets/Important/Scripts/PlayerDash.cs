@@ -7,7 +7,6 @@ public class PlayerDash : MonoBehaviour
 {
     public MovementProfile movementProfile;
     public Rigidbody2D rigidbody2d;
-    audioManager audioManager;
 
     public bool canDash = true;
     public bool isDashing = false;
@@ -71,7 +70,6 @@ public class PlayerDash : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         { 
             StartCoroutine(Dash());
-            audioManager.PlaySFX(audioManager.Move);
         }
     }
 

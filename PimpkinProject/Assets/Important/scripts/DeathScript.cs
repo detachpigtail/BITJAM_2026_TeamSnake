@@ -7,13 +7,7 @@ using UnityEngine.UIElements;
 using System.Collections;
 using System.Collections.Generic;
 
-//audioManager audioManager;
-/*
-pricate void Awake()
-{
-	audioManager = gameObject.findGameObjectWithTag("audio").GetComponent<AudioManager>();
-}
-*/
+
 public class DeathScript : MonoBehaviour
 {
 	public string player = "Player";
@@ -30,7 +24,7 @@ public class DeathScript : MonoBehaviour
 		if (other.gameObject.CompareTag(player))
 		{
 			other.gameObject.transform.position = FindAnyObjectByType<SetCheckPoint>().checkpointPosition;
-			//audioManager.PlaySFX(audioManager.Death);
+			other.gameObject.GetComponent<AudioSource>().Play();
 		}
 	}
 }
