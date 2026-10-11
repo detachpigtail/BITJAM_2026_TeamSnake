@@ -122,7 +122,6 @@ namespace MotionCore2D.Examples
                 SetFloat(_verticalSpeedParameter, state.Velocity.y);
                 _animator.SetBool("Jumping", !_jump.IsRising);
                 _animator.SetBool("Jumping", _jump.IsRising);
-                _animator.SetBool("isCrouching", IsCrouching);
             }
 
             if (_sprite != null && Mathf.Abs(state.Velocity.x) > _facingDeadzone)
@@ -169,8 +168,6 @@ namespace MotionCore2D.Examples
         {
             IsGrounded = true;
             _animator.SetBool("Jumping", _jump.IsRising);
-            IsCrouching = true;
-            _animator.SetBool("Crouching", IsCrouching);
         }
     }
 }

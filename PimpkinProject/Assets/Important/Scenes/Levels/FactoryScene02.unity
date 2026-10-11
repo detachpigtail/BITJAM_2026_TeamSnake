@@ -3262,6 +3262,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2824818754748773351, guid: 8a2e42a0de9cd6e43a90424bf81b7a4f, type: 3}
   m_PrefabInstance: {fileID: 573803501}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &581501387 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 469247418772803176, guid: df832228c4698df4a98e95f39b878070, type: 3}
+  m_PrefabInstance: {fileID: 2073829382}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &624635768 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2824818754748773351, guid: 8a2e42a0de9cd6e43a90424bf81b7a4f, type: 3}
@@ -34672,15 +34677,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 210367904317439803, guid: df832228c4698df4a98e95f39b878070, type: 3}
       propertyPath: m_Color.b
-      value: 0.9528302
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 210367904317439803, guid: df832228c4698df4a98e95f39b878070, type: 3}
       propertyPath: m_Color.g
-      value: 0.54607964
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 210367904317439803, guid: df832228c4698df4a98e95f39b878070, type: 3}
       propertyPath: m_Color.r
-      value: 0.13932894
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 210367904317439803, guid: df832228c4698df4a98e95f39b878070, type: 3}
       propertyPath: m_Enabled
@@ -34745,7 +34750,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 469247418772803176, guid: df832228c4698df4a98e95f39b878070, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2073829399}
   m_SourcePrefab: {fileID: 100100000, guid: df832228c4698df4a98e95f39b878070, type: 3}
 --- !u!4 &2073829383 stripped
 Transform:
@@ -34762,6 +34770,33 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 3819694659697182945, guid: df832228c4698df4a98e95f39b878070, type: 3}
   m_PrefabInstance: {fileID: 2073829382}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &2073829386 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1544715218015010379, guid: df832228c4698df4a98e95f39b878070, type: 3}
+  m_PrefabInstance: {fileID: 2073829382}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2073829399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581501387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93bf30328cdb4cebb36ed1759b85461a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MotionCore2D.Examples::MotionCore2D.Examples.MotionAnimatorExample
+  _animator: {fileID: 2073829386}
+  _sprite: {fileID: 0}
+  _speedParameter: Speed
+  _verticalSpeedParameter: VerticalSpeed
+  _groundedParameter: Grounded
+  _jumpingParameter: Jumping
+  _crouchingParameter: Crouching
+  _jumpTrigger: Jump
+  _landTrigger: Land
+  _facingDeadzone: 0.1
 --- !u!1 &2075507108
 GameObject:
   m_ObjectHideFlags: 0
